@@ -1,5 +1,5 @@
 FROM node:8.16.2
-MAINTAINER PM <admin@zegal.com>
+MAINTAINER pmag <pomba.magar@zegal.com>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     && apt-get upgrade -y \
